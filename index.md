@@ -18,7 +18,7 @@ The course gives you feedback as you navigate your way to the right answer.
 
 Once you have figured out the best way to deal with a faulty class, you get a summary of why that way is most correct.
 
-[Image of correct answer feedback](https://user-images.githubusercontent.com/33792796/97097444-dad75900-1646-11eb-89cc-9dd80938a7b9.png)
+![Image of correct answer feedback](https://user-images.githubusercontent.com/33792796/97097444-dad75900-1646-11eb-89cc-9dd80938a7b9.png)
 
 ### Author and Contributors
 Created by [Francisco Huergo](https://github.com/fhuergo). Special Thanks to [Shea Belsky](https://github.com/sheabelsky) and [Brendan Butts](https://github.com/sevenecks).
