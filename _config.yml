@@ -3,6 +3,7 @@ description: Awesome Learning SOLID Principles Course Part 1
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-cayman
+future: true
 
 gems:
   - jekyll-mentions
