@@ -1,0 +1,8 @@
+title: Solid1
+description: Awesome Learning SOLID Principles Course Part 1
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
