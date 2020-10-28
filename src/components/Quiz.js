@@ -94,16 +94,18 @@ export default class Quiz extends Component {
                     {question}<br />
                 </div>
                 <div className="options">
+                  <ul>
                     {options.map(option => {
                         return (
-                            <ul
+                            <li
                                 key={option}
                                 onClick={() => this.checkAnswer(option)}
                             >
                             {option[0]}
-                            </ul>
+                            </li>
                         );
                     })}
+                  </ul>
                 </div>
                 {optionExplanation}
                 <div align={'center'}>
