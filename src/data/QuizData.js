@@ -15,15 +15,15 @@ import ClassHPInterface from '../../public/classes/sea_game_3.png';
 
 const MERMAID_GAME_CLASSES = [ClassMSO, ClassMerPerson, ClassHPInterface];
 
-const ANSWER_1  = 'getFavoriteFood()';
-const ANSWER_2  = 'make a new class with it';
-const ANSWER_3  = 'We have to add a new method and field for each new friend';
-const ANSWER_4  = 'One method that takes a friend as a parameter';
-const ANSWER_5  = 'Figure out a pattern among the friends to simplify code, for example some friends sleep in early, others are only free Thursday, and group in case/switch or if blocks accordingly. New expansions would then be types of friends, instead of individual friends.';
-const ANSWER_6  = 'setSideLength';
-const ANSWER_7  = 'Create an abstract class Shape that is extended by Rectangle and Square';
-const ANSWER_8  = 'Write a new interface';
-const ANSWER_9  = 'Student is limited to receiving homework help from Teacher instead of other potential classes';
+const ANSWER_1 = 'getFavoriteFood()';
+const ANSWER_2 = 'make a new class with it';
+const ANSWER_3 = 'We have to add a new method and field for each new friend';
+const ANSWER_4 = 'One method that takes a friend as a parameter';
+const ANSWER_5 = 'Figure out a pattern among the friends to simplify code, for example some friends sleep in early, others are only free Thursday, and group in case/switch or if blocks accordingly. New expansions would then be types of friends, instead of individual friends.';
+const ANSWER_6 = 'setSideLength';
+const ANSWER_7 = 'Create an abstract class Shape that is extended by Rectangle and Square';
+const ANSWER_8 = 'Write a new interface';
+const ANSWER_9 = 'Student is limited to receiving homework help from Teacher instead of other potential classes';
 const ANSWER_10 = 'It has THREE: dealing with fish on display, whether the place is open, and cleaning duties';
 const ANSWER_11 = 'Put each responsibility in its own class, and have the Aquarium class ‘use’ them';
 const ANSWER_12 = 'setFishToDisplay()';
@@ -37,12 +37,12 @@ const ANSWER_19 = 'Interface methods were overwritten to be ignored';
 
 const ANSWER_COMPOSITION_INSTEAD_OF_INHERITANCE = 'Use composition instead of inheritance';
 
-const OPTION_OPEN_BUSINESS                  = 'openBusiness()';
-const OPTION_CLOSE_BUSINESS                 = 'closeBusiness()';
-const OPTION_SHOULD_BE_OPEN                 = 'shouldBeOpen()';
-const OPTION_MOP_FLOORS                     = 'mopFloorsBeforeClosing()';
+const OPTION_OPEN_BUSINESS = 'openBusiness()';
+const OPTION_CLOSE_BUSINESS = 'closeBusiness()';
+const OPTION_SHOULD_BE_OPEN = 'shouldBeOpen()';
+const OPTION_MOP_FLOORS = 'mopFloorsBeforeClosing()';
 const OPTION_RESPONSE_CLOSE_LIFELONG_METHOD = 'Close! This method looks like it’ll have a consistent and long lifespan, much like the neon tetra fish, that lives for around ten years.';
-const OPTION_RESPONSE_LOOK_AGAIN            = 'Look again...';
+const OPTION_RESPONSE_LOOK_AGAIN = 'Look again...';
 
 const QuizData = [
     {
@@ -203,7 +203,7 @@ const QuizData = [
                 'True, but it is probably class Teacher’s job to decide whether it is available for help or not; class Student should be able to ask and expect some sort of response. It shouldn’t have awareness of Teacher’s schedule.'
             ],
             [
-                'Teacher’s method askQuestion() may be deleted at some point from Teacher, which is a concrete object, and we can’t count on it',
+                'Teacher’s method giveHomeworkHelp() may be deleted at some point from Teacher, which is a concrete object, and we can’t count on it',
                 'That is actually not an invalid reason to justify how we are going to solve this problem. If that method goes away, whoever does that should be sure that other methods from other classes are not calling it!'
             ],
             [
@@ -211,7 +211,7 @@ const QuizData = [
                 'That’s right! It would make more sense to include parents and even other students.'
             ],
             [
-                'Teacher’s askQuestion() may be restricted to its inheritance tree, or be private',
+                'Teacher’s giveHomeworkHelp() may be restricted to its inheritance tree, or be private',
                 'You always want to verify that a method is public before calling it from another class that is not part of its inheritance tree. In this case, we got verification and we’re good to go. If another engineer changes this, they would make sure other classes don’t come crashing down!'
             ]
         ],
